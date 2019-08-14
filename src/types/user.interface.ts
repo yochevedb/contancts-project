@@ -3,7 +3,7 @@
 declare namespace contacts{
 
     export interface User {
-        gender:     string;
+        gender?:     string;
         name:       Name;
         location:   Location;
         email:      string;
